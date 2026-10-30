@@ -1,0 +1,8 @@
+a = 1 + 2 * 3
+print(a)
+print((a - 1) // 2)
+print(7 % 4)
+print(2 ** 10)
+print(10 / 4)
+print(abs(-5), min(3, 9), max(3, 9))
+print(int("42") + 1, float("1.5") * 2, str(99) + "!")

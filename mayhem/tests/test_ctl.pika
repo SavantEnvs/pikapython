@@ -1,0 +1,14 @@
+x = 7
+r = ""
+while x > 0:
+    x -= 3
+    r += str(x) + ","
+print(r)
+if x < 0 and r != "":
+    print("neg")
+else:
+    print("nonneg")
+try:
+    raise
+except:
+    print("caught")

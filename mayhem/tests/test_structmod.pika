@@ -1,0 +1,5 @@
+import struct
+b = struct.pack("<HI", 258, 16909060)
+print(b)
+print(struct.unpack("<HI", b))
+print(struct.unpack(">h", b"\xff\xfe"))

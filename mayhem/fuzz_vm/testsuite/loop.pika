@@ -1,0 +1,6 @@
+s = 0
+for i in range(5):
+    s += i
+print(s)
+while s > 0:
+    s -= 4

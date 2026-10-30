@@ -1,0 +1,7 @@
+class A:
+    def __init__(self):
+        self.v = 1
+    def get(self):
+        return self.v
+x = A()
+print(x.get())

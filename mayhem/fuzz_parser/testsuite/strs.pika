@@ -1,0 +1,8 @@
+s = "hello"
+t = s + " world"
+print(t)
+print(len(t))
+l = [1, 2, 3]
+print(l[1])
+d = {"a": 1}
+print(d["a"])

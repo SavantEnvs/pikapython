@@ -1,0 +1,2 @@
+^(foo|bar)\s\w+$
+foo baz

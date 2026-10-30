@@ -1,0 +1,5 @@
+import json
+o = json.loads('{"a": [1, 2, 3], "b": "text", "c": true}')
+print(o["a"][2])
+print(o["b"])
+print(json.dumps([1, "two", 3.5]))

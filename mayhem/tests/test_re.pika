@@ -1,0 +1,6 @@
+import re
+m = re.search("([0-9]+)-([a-z]+)", "id 123-abc end")
+print(m.group(0))
+print(m.group(2))
+print(re.sub("[0-9]+", "#", "a1b22c333"))
+print(re.findall("[a-z]+", "ab 12 cd"))

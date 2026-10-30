@@ -1,0 +1,11 @@
+x = 3
+if x > 2 and x < 5:
+    print("mid")
+elif x == 1:
+    print("one")
+else:
+    print("other")
+try:
+    assert x == 3
+except:
+    pass
